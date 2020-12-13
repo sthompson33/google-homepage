@@ -1,0 +1,46 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: small;
+    color: #202124
+}
+ 
+*:focus {
+    outline: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+li {
+    display: inline;
+    padding-right: 15px;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.google-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.search-box {
+    width: 570px;
+    height: 45px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+}
