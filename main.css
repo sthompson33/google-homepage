@@ -1,7 +1,6 @@
 body {
     font-family: arial,sans-serif;
     font-size: small;
-    color: #202124
 }
  
 *:focus {
@@ -19,6 +18,10 @@ li {
     padding-right: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: #232325;
+}
 li:hover {
     text-decoration: underline;
     cursor: pointer;
