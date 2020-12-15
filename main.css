@@ -1,16 +1,24 @@
+*:focus {
+    outline: none;
+}
+
 body {
     font-family: arial,sans-serif;
     font-size: small;
 }
- 
-*:focus {
-    outline: none;
+
+.body-wrap {
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+}
+ 
+.nav-left {
+    padding-top: 7px;
 }
 
 li {
@@ -18,13 +26,35 @@ li {
     padding-right: 15px;
 }
 
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
     color: #232325;
 }
-li:hover {
-    text-decoration: underline;
-    cursor: pointer;
+
+.nav-apps {
+    display: inline-block;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -135px -39px;
+    vertical-align: middle;
+    background-size: 528px 62x;
+    height: 30px;
+    width: 30px;
+    opacity: .55;
+}
+
+.sign-in {
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: bold;
+    background-color: #4285f4;
+    color: white;
+    width: 70px;
+    height: 30px;
 }
 
 .google-logo {
@@ -46,4 +76,8 @@ li:hover {
     border-width: 1px;
     border-style: solid;
     border-color: lightgray;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
 }
