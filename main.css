@@ -78,6 +78,15 @@ nav a {
 
 form {
     display: flex;
+    justify-content: space-around;
+    width: 550px;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 24px;
+}
+
+form:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
 }
 
 .search-form {
@@ -87,13 +96,10 @@ form {
 }
 
 .search-box {
-    width: 387px;
+    width: 420px;
     height: 45px;
-    border: 1px solid lightgray;
-}
-
-.search-box:hover {
-    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border: none;
+    font-size: 16px;
 }
 
 .search-logo {
